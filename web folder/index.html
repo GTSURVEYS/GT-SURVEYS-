@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>G T survey</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet"
+     href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/css/intlTelInput.css"
+   /> 
+   <link rel="import" href="  @import 'https://fonts.googleapis.com/css?family=Lato';">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/intlTelInput.min.js"></script>
+        <style type="text/css">
+            *{
+                font-family: monospace;
+                background-color: rgb(0, 0, 0);
+                padding-left: 3px;
+                width: auto;
+            }
+            fieldset{
+                 color: aliceblue;
+                 background-color: rgb(109, 133, 133);
+                 width: 55%;
+                 height: 100%;
+                 border: 4;
+                 border-left: 100%;
+                 border-radius: 10%
+                 
+            }
+            legend{
+                font-size: 200%;
+                color: rgb(255, 255, 255);
+                border-radius: 50%;
+            }
+            label{
+                color: #d4d1bf;
+                font-size: 15px;
+            }
+            h1{
+                color: rgba(0, 0, 0, 0.541);
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                opacity: 100%;
+                font-size: 100%;
+            }
+                h3{
+                    font-size: 150%;
+                }
+                input{
+                    width: 90%;
+                    height: 50px;
+                    background-color: rgb(255, 255, 255);
+                    color: rgb(0, 0, 0);
+                    border-color: rgb(0, 255, 255);
+                    border-radius: 10px;
+                
+                                      
+                }
+                p{
+                    color: azure;
+                }
+                #com{
+                width: 400px;
+                color: aqua;
+            }
+            #submi{
+                size: 50%;
+                width: 13px;
+                cursor: pointer;
+            }
+            #submit:hover{
+                background-color: red;
+            }
+            #manual{
+                background-color: aquamarine;
+            }
+            #manual2{
+                height: 100%;
+            }
+            .drop:hover{
+                transition: all 400ms ease-in-out;
+            }
+            .drop{
+                transition: all 400ms ease;
+                -moz-transition: all 500ms ease;
+                -webkit-transition: all 400ms ease;
+           
+            }
+            @-webkit-keyframes{}
+                .Example{
+                height: 100px;
+                 background: #fff;
+                }
+        .Example:hover{
+        height: 120px;
+
+            }
+            .Example{
+ transition: all 400ms ease;
+ -moz-transition: all 400ms ease;
+ -webkit-transition: all 400ms ease;
+ cursor: pointer;
+}
+        
+                
+     </style>           
+    </head>
+     <body>
+        <div style="letter-spacing: 2pt; text-align:center;">
+             <a href="#reg" target="_blank" style="color: rgb(0, 225, 255); font-size: 20px;">Earn|</a>
+             <a href="#reg" target="_blank" style="color: rgb(0, 225, 255); font-size: 20px;">sign up|</a>
+             <a href="#manual" target="_blank" style="color: rgb(0, 225, 255); font-size: 20px;">About</a>
+            </div>
+        <div style="text-align: center;">
+            <FIeldset style="background-color: black; width: 95%; border-radius: 0; align-items: center; width: auto;">
+        <h1 style=" color: white; text-align: center;"> <i>Welcome to <em> GT</em> survey kindly get registered and start earning more</i> </h1>
+    </FIeldset>
+    </div>
+    <p style="width: auto;"> <em style="color: red; padding-right: 10px;">Warning!!!!: greeting to you great mind thanks for <br> choosen Gt surveys for new visitors you are all urge<br> to procceed in reading the manual before proccceding <br>
+         in getting registering </em>
+    </p>
+    <div id="com" style="">
+        <fieldset style="justify-content: center;"> 
+            <legend title="Please input the text " > Start Earning</legend>
+                <form method="post" action="thank_.html" method="post" autocomplete="off">
+                    <label for="username"> Username</label><br>
+                    <input type="text" id="username" required placeholder="Name" name="username" style="width: 310px;"><br />
+                    <label for="Phone No"> Phone NO</label><br />
+                    <input type="tel" id="phone"  placeholder="Phone No" name="phone" style="width: 310px;" required><br>
+                    <label for="Email"> email Address</label><br>
+                    <input type="email" id="Email" required placeholder="Email" name="email" style="width: 310px;" class=""><br />
+                    <label for="Agree" style="color: rgb(255, 255, 255);">Agree you have readed our manuals bellow</label>
+                    <input type="checkbox" name="agree" required  style="color: black;width: 20pxpx;"><br>
+                    <input type="submit" id="submit" value="sign Up" style="background-color: rgb(0, 0, 0);color: beige; width: 100px;height: 40px; border-radius: 20%;" class="">
+                </form>
+    </fieldset>
+</div>
+<div>
+    <fieldset style=" width: auto; height:30%;">
+        <legend>MANUAL</legend>
+         <p style=""> all you need to do is to first precced in putting up your <a  href="#reg" target="blank" style="color: rgb(255, 94, 0);"> Details</a></p>
+          <P> then precced in getting intoch;this will be specified after you have procced in you putting out all details required</P>
+        </fieldset>
+        <fieldset id="manual2" style=" width:auto ; height:30%;">
+            <legend>MANUAL</legend>
+             <p> All first timers panering with us get 50% profit;</p>
+              <P>This colography was made by BPT::precious <br>to give a helping hand for upcomming youth</P>
+            </fieldset>
+        </div>
+     </body>
+    <script>
+      const phoneInputField = document.querySelector("#phone");
+      const phoneInput = window.intlTelInput(phoneInputField, {
+        utilsScript:
+          "https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/utils.js",
+      });
+    </script>
+</html>
